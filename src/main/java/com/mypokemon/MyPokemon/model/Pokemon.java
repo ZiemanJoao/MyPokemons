@@ -1,5 +1,7 @@
 package com.mypokemon.MyPokemon.model;
 
+import com.mypokemon.MyPokemon.exceptions.Nivel100Exception;
+import com.mypokemon.MyPokemon.exceptions.NivelMenor1Exception;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -21,4 +23,12 @@ public class Pokemon {
     private int nivel;
     private String pokebola;
 
+    public void setNivel(int nivel) throws Nivel100Exception, NivelMenor1Exception {
+        if (nivel > 100)
+            throw new Nivel100Exception();
+        else if (nivel < 1)
+            throw new NivelMenor1Exception();
+
+        this.nivel = nivel;
+    }
 }
