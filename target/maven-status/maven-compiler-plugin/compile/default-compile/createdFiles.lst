@@ -1,0 +1,8 @@
+com/mypokemon/MyPokemon/exceptions/Nivel100Exception.class
+com/mypokemon/MyPokemon/ServletInitializer.class
+com/mypokemon/MyPokemon/exceptions/NivelMenor1Exception.class
+com/mypokemon/MyPokemon/MyPokemonApplication.class
+com/mypokemon/MyPokemon/controller/PokemonController.class
+com/mypokemon/MyPokemon/model/Pokemon.class
+com/mypokemon/MyPokemon/model/Pokemons.class
+com/mypokemon/MyPokemon/repository/PokemonRepository.class

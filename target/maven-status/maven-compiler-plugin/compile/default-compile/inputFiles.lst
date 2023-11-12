@@ -1,0 +1,8 @@
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/MyPokemonApplication.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/model/Pokemons.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/repository/PokemonRepository.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/model/Pokemon.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/controller/PokemonController.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/exceptions/Nivel100Exception.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/ServletInitializer.java
+/home/aranda/MyPokemon/src/main/java/com/mypokemon/MyPokemon/exceptions/NivelMenor1Exception.java
