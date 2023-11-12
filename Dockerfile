@@ -1,5 +1,5 @@
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM openjdk:11
 
 # Set the working directory in the container
 WORKDIR /app
@@ -9,7 +9,9 @@ RUN apt-get update && apt-get install -y git
 RUN git clone https://github.com/ZiemanJoao/MyPokemons.git .
 
 # Build your Spring Boot application with Maven
-RUN ./mvnw clean package
+RUN apt-get update && apt-get install -y maven
+RUN mvn install
+RUN mvn package
 
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
